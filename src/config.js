@@ -15,6 +15,8 @@ const dev = {
   }
 };
 
+const prod = dev
+
 // Default to dev if not set
 const config = process.env.REACT_APP_STAGE === 'prod'
   ? prod
